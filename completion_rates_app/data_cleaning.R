@@ -15,24 +15,26 @@
 # renv::install("bsicons") # For icons to use via bslib
 # renv::install("thematic") # For consistence between layout and plots
 # renv::install("shinylive") # To allow your app to be interactive
+# renv::install("usethis") # For github
 
 # Loading the packages
 
-library(here) # For replicability of processes
-library(tidyverse) # For data manipulation and visualisation
-library(readr) # For loading csv
-library(reprex) # For presentation of issues to the wider community
-library(gt) # For tables
-library(gtExtras) # For tables
-library(shiny) # For shiny
-library(plotly) # For plotly
-library(DT) # For reactive tables
-library(shinythemes) # For shiny themes
-library(lintr) # For syntax being used
-library(bslib) # For aesthetics in shiny
-library(bsicons) # For icons to use via bslib
-library(thematic) # For consistence between layout and plots
-library(shinylive) # To allow your app to be interactive
+library(here) 
+library(tidyverse) 
+library(readr) 
+library(reprex) 
+library(gt) 
+library(gtExtras) 
+library(shiny) 
+library(plotly) 
+library(DT) 
+library(shinythemes) 
+library(lintr) 
+library(bslib) 
+library(bsicons) 
+library(thematic) 
+library(shinylive)
+library(usethis)
 
 # Upload the two data sets that sustain shiny. The first is for the histogram
 # and the line graph, the second for the table.
